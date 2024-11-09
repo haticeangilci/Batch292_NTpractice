@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class C02_InterviewQuestion {
     public static void main(String[] args) {
-        // bir cümlenin kelimelerini sayacak, her kelimeyi ters çevirecek kodu yazınız
+       // bir cümlenin kelimelerini sayacak, her kelimeyi ters çevirecek kodu yazınız
         Scanner input=new Scanner(System.in);
         System.out.println("Lütfen bir cümle giriniz");
         String str= input.nextLine();
@@ -24,7 +24,7 @@ public class C02_InterviewQuestion {
         }
         System.out.println();
         for (String word:words
-        ) {
+             ) {
             StringBuilder sb=new StringBuilder(word);
             System.out.print(sb.reverse()+" ");
         }

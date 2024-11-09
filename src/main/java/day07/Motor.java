@@ -2,7 +2,7 @@ package day07;
 
 public interface Motor {
     //motorun gucunu getirir
-    int getGuc();
+    double getGuc();
 
     //motoru calıstırma
     void calistir();

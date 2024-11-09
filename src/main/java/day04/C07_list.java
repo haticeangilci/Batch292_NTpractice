@@ -7,26 +7,26 @@ import java.util.Scanner;
 
 public class C07_list {
     public static void main(String[] args) {
-        // // bir listede ortalamanin ustunde olan eleman sayisini bulunuz
-        // //List.of methodu kısa surede list olusturmayı saglar fakat arraylistlerde kullanılamaz
-        // List<Double> mylist=List.of(1.5,3.14,1.8,57.57,37.0,13.5);
-        // /*
-        // elemanların toplami
-        // eleman sayisi
-        //  */
-        // double sum=0;
-        // for (Double a:mylist) {
-        //     sum+=a;
-        // }
-        // double ort=sum/mylist.size();
-        // System.out.println(ort);//19.085
-        // int sayac=0;
-        // for (Double a:mylist) {
-        //     if (a>ort){
-        //         sayac++;
-        //         System.out.println(a);
-        //     }
-        // }
+       // // bir listede ortalamanin ustunde olan eleman sayisini bulunuz
+       // //List.of methodu kısa surede list olusturmayı saglar fakat arraylistlerde kullanılamaz
+       // List<Double> mylist=List.of(1.5,3.14,1.8,57.57,37.0,13.5);
+       // /*
+       // elemanların toplami
+       // eleman sayisi
+       //  */
+       // double sum=0;
+       // for (Double a:mylist) {
+       //     sum+=a;
+       // }
+       // double ort=sum/mylist.size();
+       // System.out.println(ort);//19.085
+       // int sayac=0;
+       // for (Double a:mylist) {
+       //     if (a>ort){
+       //         sayac++;
+       //         System.out.println(a);
+       //     }
+       // }
         List<Integer> lst = new ArrayList<>();
         Random random1 = new Random();
         Scanner scanner = new Scanner(System.in);

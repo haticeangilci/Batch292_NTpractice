@@ -12,13 +12,13 @@ public class C06_list {
         ArrayList<Integer>mylist=new ArrayList<>(Arrays.asList(1, 3, 5, 3, 5, 6, 1, 7));
         System.out.println(mylist);
         tekrarsizList(mylist);
-        // System.out.println(mylist);
+       // System.out.println(mylist);
     }
 
     private static void tekrarsizList(ArrayList<Integer> mylist) {
         ArrayList<Integer>newlist=new ArrayList<>();
         for (int a:mylist
-        ) {
+             ) {
             if (!newlist.contains(a)){
                 newlist.add(a);
             }
